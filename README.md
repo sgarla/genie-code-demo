@@ -7,7 +7,7 @@ Databricks **Genie Code** walkthrough for a pharmacovigilance scenario: syntheti
 | Path | Purpose |
 |------|--------|
 | `data_generation/` | Scripts to generate structured and unstructured demo data (Parquet/Delta, Unity Catalog volumes). Run these first to populate catalogs used by the demos. |
-| `recovery/` | **Demos** and **exercises**: Genie Code prompts for discovery, EDA, ML, dashboards, design assistance, and drug-safety analysis. |
+| `demo_notebooks/` | **Demos** and **exercises**: Genie Code prompts for discovery, EDA, ML, dashboards, design assistance, and drug-safety analysis. |
 
 ### Data generation
 
@@ -20,10 +20,10 @@ Databricks **Genie Code** walkthrough for a pharmacovigilance scenario: syntheti
 
 | File | Type | Description |
 |------|------|-------------|
-| `recovery/[demo] 01_genie_code_generation_e2e_pipeline.py` | Demo | Data discovery → EDA → severity ML model → AI/BI dashboard using natural-language Genie Code prompts against your pharmacovigilance schema. |
-| `recovery/[exercise] 02_genie_code_explanation_and_improvements.py` | Exercise | Explanation and code-improvement prompts. |
-| `recovery/[exercise] 03_code_genie_design_assistance.py` | Exercise | Design-assistance workflows with Genie Code. |
-| `recovery/[exercise] 04_genie_pharmacovigilance_drug_safety.py` | Exercise | Pharmacovigilance / drug-safety focused prompts. |
+| `demo_notebooks/[demo] 01_genie_code_generation_e2e_pipeline.py` | Demo | Data discovery → EDA → severity ML model → AI/BI dashboard using natural-language Genie Code prompts against your pharmacovigilance schema. |
+| `demo_notebooks/[exercise] 02_genie_code_explanation_and_improvements.py` | Exercise | Explanation and code-improvement prompts. |
+| `demo_notebooks/[exercise] 03_code_genie_design_assistance.py` | Exercise | Design-assistance workflows with Genie Code. |
+| `demo_notebooks/[exercise] 04_genie_pharmacovigilance_drug_safety.py` | Exercise | Pharmacovigilance / drug-safety focused prompts. |
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ Databricks **Genie Code** walkthrough for a pharmacovigilance scenario: syntheti
 ## Suggested order
 
 1. Run `data_generation/01_generate_structured_data.py` (and `02_generate_unstructured_data.py` if you need that slice of the demo).
-2. Open `recovery/[demo] 01_genie_code_generation_e2e_pipeline.py` and follow the steps (discovery → EDA → ML → dashboard).
+2. Open `demo_notebooks/[demo] 01_genie_code_generation_e2e_pipeline.py` and follow the steps (discovery → EDA → ML → dashboard).
 3. Work through the `[exercise]` notebooks as needed.
 
 ## Configuration
